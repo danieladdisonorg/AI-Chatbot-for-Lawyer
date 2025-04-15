@@ -27,7 +27,7 @@ def load_pdf(file_path):
       print(f"Error loading PDF: {e}")
 
 
-file_path = 'UNO.pdf'
+file_path = '../../../hp/Documents/freelancing-project/Arbab_Resume-FullStack.pdf'
 docment = load_pdf(file_path)
 # print(f"Number of pages: {len(docment)}") 
 
